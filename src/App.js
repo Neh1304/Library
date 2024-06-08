@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import HomePage from './Component/Home';
+import Home from './Component/Home';
 import About from './Component/About';
 import Service from './Component/Service';
 import Contact from './Component/Contact';
@@ -11,7 +11,7 @@ function App() {
   return (
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/a" element={<About/>}/>
         <Route path="/b" element={<Service/>}/>
         <Route path="/c" element={<Contact/>}/>
